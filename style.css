@@ -812,3 +812,30 @@ footer {
 .edu-pill-list li { font-size: 0.85rem; color: var(--text-color); padding-left: 18px; position: relative; }
 .edu-pill-masters li::before   { content: '▹'; position: absolute; left: 0; color: var(--secondary-color); font-size: 0.75rem; }
 .edu-pill-bachelors li::before { content: '▹'; position: absolute; left: 0; color: #00c896; font-size: 0.75rem; }
+
+.skills-strip {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.skills-label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    opacity: 0.6;
+    margin-right: 0.25rem;
+}
+
+.skill-pill {
+    padding: 0.3rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    white-space: nowrap;
+}
